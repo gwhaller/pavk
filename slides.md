@@ -1,14 +1,17 @@
 ---
-theme: seriph
+theme: default
+# theme: seriph
 # theme: academic
+layout: cover
+wakelock: true
 background: ./assets/wanderer.jpg
 title: pAVK
-class: text-center
+class: text-left
 drawings:
   persist: false
 transition: slide-left
 mdc: true
-overviewSnapshots: true
+# overviewSnapshots: true
 ---
 
 # Arterienverkalkungen und arterielle Verschlusskrankheit
@@ -20,16 +23,16 @@ Klinik im Dialog - 09.12.2024
 </div>
 
 ---
+layout: image-right
+image: ./assets/anatomie.webp
+backgroundSize: contain
+class: bg-white
+# backgroundSize: 20em 70%
+---
 
-# Anatomie
-
-Aufbau der Durchblutung
+## Aufbau der Durchblutung
 
 <br>
 
-<ul>
-<li><span class="text-red-500">Arterien</span> - Sauerstoff- und Nährstofftransport</li>
-<li><span class="text-blue-500">Venen</span> - Abtransport von Co2 und Giftstoffen</li>
-</ul>
-
----
+- [Arterien]{style='color:red'} - Sauerstoff und Nährstofftransport
+- [Venen]{style="color:#1E90FF"} - Abtransport von CO<sub>2</sub> und Giftstoffen
