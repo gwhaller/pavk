@@ -1,3 +1,18 @@
-.slidev-layout.default {
-  background: linear-gradient(#000f, #004d);
+/* .slidev-layout.default {
+  background: #004d;
+} */
+
+/* .slidev-layout {
+  h2 {
+    color: Khaki;
+  }
 }
+
+.slidev-vclick-target {
+  transition: opacity 100ms ease;
+}
+
+.slidev-vclick-hidden {
+  opacity: 0;
+  pointer-events: none;
+} */
