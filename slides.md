@@ -42,32 +42,24 @@ image: ./assets/anatomie.avif
 
 ### Lymphgefäße
 
-<v-clicks>
+<v-click>
 
 - Lymphbahnen - Immunzellen, Fette, Wasser
 
-</v-clicks>
-
-<style>
-h2 {
-  --uno: 'text-gray-300 mb-8';
-}
-h3 {
-  --uno: 'mb-2 mt-4';
-}
-
-.slidev-vclick-target {
-transition: opacity 500ms ease;
-}
-.slidev-vclick-hidden {
-  opacity: 0.4 !important
-}
-/* .slidev-vclick-prior {
-  opacity: 0.2
-} */
-
-</style>
+</v-click>
 
 ---
 
-# TestPage
+## Schlagadern
+
+Verteilung
+
+---
+
+## Prognose
+
+---
+
+
+---
+
