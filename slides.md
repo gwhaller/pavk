@@ -1,16 +1,19 @@
 ---
+title: pAVK
 theme: default
 # theme: seriph
 # theme: academic
 layout: cover
 wakelock: true
 background: ./assets/wanderer.jpg
-title: pAVK
+titleTemplate: "%s"
+info: false
 class: text-left
 drawings:
   persist: false
 transition: slide-left
 mdc: true
+favicon: /favicon.ico
 # overviewSnapshots: true
 ---
 
@@ -25,8 +28,7 @@ Klinik im Dialog - 09. Dezember 2024
 ---
 layout: image-right
 image: ./assets/anatomie.avif
-# backgroundSize: contain
-# backgroundSize: 20em 70%
+clicks: 4
 ---
 
 ## Aufbau der Durchblutung
@@ -35,24 +37,38 @@ image: ./assets/anatomie.avif
 
 <v-clicks>
 
-- [Arterien]{style='color:red'} - Sauerstoff und Nährstofftransport
+- [Arterien]{style='color:#DC143C'} - Sauerstoff und Nährstofftransport
 - [Venen]{style="color:#1E90FF"} - Abtransport von CO<sub>2</sub> und Giftstoffen
 
 </v-clicks>
 
 ### Lymphgefäße
 
-<v-click>
+<v-clicks>
 
 - Lymphbahnen - Immunzellen, Fette, Wasser
 
-</v-click>
+</v-clicks>
 
+---
+layout: image-left
+image: ./assets/arterien_hand.webp
 ---
 
 ## Schlagadern
 
 Verteilung
+
+<!--
+<img src="./assets/arterien_fuss.jpg" class="abs-tr" width=50%>
+-->
+
+---
+layout: image-right
+image: ./assets/plaque.avif
+---
+
+## Verkalkungen
 
 ---
 

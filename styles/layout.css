@@ -7,6 +7,12 @@ h3 {
 .slidev-vclick-target {
   transition: opacity 500ms ease;
 }
+.slidev-vclick-prior {
+  opacity: 0.7 !important;
+}
 .slidev-vclick-hidden {
-  opacity: 0.4 !important;
+  opacity: 0.3 !important;
+}
+.slidev-vclick-current {
+  opacity: 1 !important;
 }
