@@ -30,6 +30,13 @@ src: ./pages/anatomie.md
 ---
 
 ---
+
+<h1 class="absolute left-26 top-20 !text-shadow-lg !text-6xl">Arterien</h1>
+<SlidevVideo autoplay>
+<source src="./assets/vid_arterien.mp4" type="video/mp4" />
+</SlidevVideo>
+
+---
 layout: image-left
 image: ./assets/arterien_hand.webp
 ---
@@ -37,12 +44,6 @@ image: ./assets/arterien_hand.webp
 ## Schlagadern
 
 Verteilung
-
-<!--
-<img src="./assets/arterien_fuss.jpg" class="abs-tr" width=50%>
--->
-
-<SlideCurrentNo />/<SlidesTotal />
 
 ---
 layout: image-right
@@ -56,8 +57,11 @@ src: ./pages/prognose_1.md
 ---
 
 ---
+src: ./pages/prognose_10.md
+---
 
-## Test
+---
+
 
 ---
 
