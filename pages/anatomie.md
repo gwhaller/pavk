@@ -8,17 +8,13 @@ clicks: 4
 
 ### Blutgefäße
 
-<v-clicks>
-
-- [Arterien]{style='color:#DC143C'} - Sauerstoff und Nährstofftransport
-- [Venen]{style="color:#1E90FF"} - Abtransport von CO<sub>2</sub> und Giftstoffen
-
-</v-clicks>
+<ul>
+  <li v-click="1"><span class="text-red-500">Arterien</span> - Sauerstoff und Nährstofftransport</li>
+  <li v-click="2"><span class="text-blue-400">Venen</span> - Abtransport von CO<sub>2</sub> und Giftstoffen</li>
+</ul>
 
 ### Lymphgefäße
 
-<v-clicks>
-
-- Lymphbahnen - Immunzellen, Fette, Wasser
-
-</v-clicks>
+<ul>
+  <li v-click="3">Lymphbahnen - Immunzellen, Fette, Wasser</li>
+</ul>
