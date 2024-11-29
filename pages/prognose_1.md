@@ -23,13 +23,13 @@
     <div class="flex space-x-26">
       <div class="flex space-x-6">
         <div class="box highlight before:(line -skew-y-15 h1 w22 -top-7 left-22)" v-click="6">
-          35% kardiovaskuläre<br>Ereignisse
+          35%<br>gefäßbedingte<br>Ereignisse
         </div>
         <div class="box before:(line w-1 h-8 -top-10 left-56)" v-click="9">
           60%<br>ereignisfreies<br>Überleben
         </div>
         <div class="box before:(line skew-y-15 h1 w22 -top-7 left-70)" v-click="10">
-          5%<br>Tod nicht<br>vaskulär
+          5%<br>Tod nicht<br>gefäßbedingt
         </div>
       </div>
       <div class="flex space-x-6">
@@ -46,15 +46,15 @@
   <div class="relative flex justify-between mt-12 ml-4">
     <div class="flex space-x-6">
       <div class="box highlight before:(line w-1 h-8 -top-10 left-17)" v-click="7">
-        10%<br>nicht letales kardio-<br>vaskuläres Ereignis
+        10%<br>nicht tötliches<br>Ereignis
       </div>
-      <div class="box highlight before:(line skew-y-20 h1 w20 -top-7 left-27)" v-click="8">
-        25%<br>kardiovaskulärer<br>Tod
+      <div class="box highlight before:(line skew-y-20 h1 w18 -top-6 left-27)" v-click="8">
+        25%<br>gefäßbedingter<br>Tod
       </div>
     </div>
     <div class="flex space-x-6">
-      <div class="box highlight before:(line w-1 h-8 -top-10 left-197)" v-click="4">
-        2%<br>Extremitäten<br>Amputation
+      <div class="box pt-4 highlight before:(line w-1 h-8 -top-10 left-197)" v-click="4">
+        2%<br>Amputation
       </div>
     </div>
   </div>

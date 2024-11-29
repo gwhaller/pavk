@@ -62,3 +62,8 @@ wqwdsdf
 
 ---
 
+clean eating
+Lege klärt auf
+DGE Omega-6- zu Omega-3-Fettsäureverhältniss 5:1
+Ölivenöl 126:1
+Triglyceride - Kohlenhydrate
