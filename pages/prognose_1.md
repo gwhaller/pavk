@@ -2,7 +2,7 @@
 
 <div class="absolute text-center text-sm top-16 left-10">
 
-  <div class="flex justify-around">
+  <div class="flex justify-around" v-click="0">
     <div class="ml-24 w-34 border-(white 2) rounded p-1">
       pAVK<br>bei Stadium II
     </div>
