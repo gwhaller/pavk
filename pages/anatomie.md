@@ -1,6 +1,7 @@
 ---
 layout: image-right
-image: ./assets/anatomie.avif
+image: /anatomie.avif
+title: Anatomie
 # clicks: 4
 ---
 

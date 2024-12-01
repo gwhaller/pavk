@@ -5,7 +5,7 @@ theme: default
 # theme: academic
 layout: cover
 wakelock: true
-background: ./assets/wanderer.jpg
+background: /wanderer.jpg
 titleTemplate: "%s"
 info: false
 class: text-left
@@ -30,6 +30,8 @@ src: ./pages/anatomie.md
 ---
 
 ---
+title: Arterien
+---
 
 <div class="absolute left-26 top-20 !text-(shadow-lg 6xl)">
  <h1>Arterien</h1>
@@ -40,12 +42,13 @@ src: ./pages/anatomie.md
  </ul>
 </div>
 <SlidevVideo autoplay>
-<source src="./assets/vid_arterien.mp4" type="video/mp4" />
+<source src="/vid_arterien.mp4" type="video/mp4" />
 </SlidevVideo>
 
 ---
 layout: image-left
-image: ./assets/plaque.avif
+image: /plaque.avif
+title: Erkrankungen
 ---
 
 # Erkrankungen
@@ -60,8 +63,14 @@ image: ./assets/plaque.avif
 </v-clicks>
 
 ---
+layout: image
+image: /nil.jpg
+title: Nil
+---
+
+---
 layout: image-left
-image: ./assets/schlaganfall.avif
+image: /schlaganfall.avif
 ---
 
 # Arterienverkalkung
@@ -70,7 +79,8 @@ image: ./assets/schlaganfall.avif
 
 ---
 layout: image-right
-image: ./assets/herz.jpg
+image: /herz.jpg
+title: Herzinfarkt
 ---
 
 # Arterienverkalkung
@@ -79,7 +89,8 @@ image: ./assets/herz.jpg
 
 ---
 layout: image-right
-image: ./assets/wade.jpg
+image: /wade.jpg
+title: pAVK
 ---
 
 # Arterienverkalkung
@@ -101,12 +112,12 @@ image: ./assets/wade.jpg
 </v-clicks>
 
 ---
+layout: image
+image: /bahnhof.jpg
+title: Bahnhof
+---
 
-<div class="absolute left-26 bottom-10 !text-(shadow-lg 6xl)">
- <h1 class="">arterielle Verschlusskrankheit</h1>
- </div>
-
-![alt](./assets/bahnhof.jpg)
+<div class="abs-bl left-10 bottom-10 !text-(shadow-lg 5xl)">arterielle Verschlusskrankheit</div>
 
 ---
 src: ./pages/prognose_1.md
@@ -114,7 +125,7 @@ src: ./pages/prognose_1.md
 
 ---
 layout: image-left
-image: ./assets/fuesse.avif
+image: /fuesse.avif
 ---
 
 # arterielle Verschlusskrankheit
@@ -136,7 +147,7 @@ image: ./assets/fuesse.avif
 
 ---
 layout: image-left
-image: ./assets/fusspulse.jpg
+image: /fusspulse.jpg
 ---
 
 ## Untersuchung
@@ -147,19 +158,82 @@ image: ./assets/fusspulse.jpg
 
 ---
 layout: image
-image: ./assets/abi-messung.jpg
+image: /abi-messung.jpg
+title: ABI
 ---
+
+<div class="abs-tl left-26 top-10 !text-(shadow-lg 4xl) text-black">ABI-Messung</div>
 
 ---
 layout: image
-image: ./assets/abiergebnis.png
+image: /abiergebnis.png
+title: ABI-Ausdruck
 ---
 
 ---
+title: Ultraschall
+---
 
-<SlidevVideo autoplay>
-<source src="./assets/us_beine.mp4" type="video/mp4" />
+<SlidevVideo autoplay class="abs-tl">
+<source src="/us.mp4" type="video/mp4" />
 </SlidevVideo>
+
+<div class="abs-bl bottom-10 !text-(shadow-lg 4xl) ">Ultraschall-Untersuchung</div>
+
+---
+
+## MRT
+
+---
+
+## PTA
+
+---
+
+## TEA
+
+---
+
+## Bypass
+
+---
+
+## Risikofaktoren
+
+Lehrmeinung - evidence based medizin - Regelwerk
+Leitlinien
+
+Erfahrungsmedizin
+
+Rauchen
+Bluthochdruck
+Zuckerkrankheit
+Fettstroffwechselstörungen
+
+Ernährung - Fettarm und Vegan
+Bewegung
+
+---
+
+## Ernährung
+
+Proteine
+Kohlenhydraten
+Fetten
+
+---
+
+## Fettsäuren
+
+länge, gesättigt, ungesättigt, trans
+
+---
+
+## Cholesterinhypthese
+
+---
+
+## Plaque-Entstehung
 
 ---
 
@@ -168,3 +242,5 @@ Lege klärt auf
 DGE Omega-6- zu Omega-3-Fettsäureverhältniss 5:1
 Ölivenöl 126:1
 Triglyceride - Kohlenhydrate
+HDL-Infusionen
+Y-Tube Weigl: Vegane Ernährung und Sport
