@@ -231,6 +231,22 @@ länge, gesättigt, ungesättigt, trans
 
 ## Cholesterinhypthese
 
+Nikolai Anitschkow 1913
+Ancel keys 50er - viel gesättigtes Fett === cholesterin steigt
+Studien vergleicht er den Fettkonsum und die Anzahl der Herztode in mehreren Ländern
+In seinen Statistiken kann er eindrucksvoll zeigen: Je mehr Fett und gesättigte Fettsäuren die Menschen essen, desto höher ist auch die Rate an Herzkrankheiten.
+2 Studien 6 und 7 (ohne Deutschland, Frankreich Schweiz) - Käse, Schmalz Wurst und Fleisch
+Diet-Heart-Hypthese
+jeder 2. Herzinfarktpatient völlig normalen Cholesterinspiegel
+
+Georg Mann - Afrika Massai-Krieger - Fleisch, Milch und Rinderblut -extrem Fettreich -schlank kerngesund
+
+John Yudkin - rafinierte Kohlenhydrate - Zucker
+
+1980 Diatary Guidelines der USA - Fettarme Ernährung (tierisch)
+
+2007 Professor Gardner A to Z Study - Low-Carb-Diät - Cholesterin stieg, Trigyceride halbiert, Gewichtsabnahme, Blutdruckabnahme
+
 ---
 
 ## Plaque-Entstehung
