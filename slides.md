@@ -181,12 +181,50 @@ title: Ultraschall
 <div class="abs-bl bottom-10 !text-(shadow-lg 4xl) ">Ultraschall-Untersuchung</div>
 
 ---
+layout: two-cols
+---
 
-## MRT
+## Bildgebende Diagnostik
+
+- Computertomografie
+- Kernspinangiografie
+
+::right::
+
+<SlidevVideo autoplay>
+<source src="/3dct.mp4" type="video/mp4" />
+</SlidevVideo>
 
 ---
 
-## PTA
+# Behandlungsmöglichkeiten
+
+- Gehtraining
+- PTA (Aufdehnen)
+- Operationene
+  - Ausschäloperation
+  - Bypassoperation
+
+---
+layout: two-cols
+---
+
+<div class="abs-tl ml-20 mt-16 !text-(shadow-lg 5xl)">Gehtraining</div>
+
+<img src="/gehtraining.jpeg" class="object-cover h-full"/>
+
+::right::
+
+<img src="/kollateralen.jpg" class="h-full"/>
+
+---
+title: PTA
+---
+
+<div class="absolute left-26 top-20 !text-(shadow-lg 6xl)">PTA</div>
+<SlidevVideo autoplay>
+<source src="/pta.mp4" type="video/mp4" class="object-cover w-full" />
+</SlidevVideo>
 
 ---
 
