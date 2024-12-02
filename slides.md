@@ -200,26 +200,37 @@ title: Ultraschall
 
 ## Risikofaktoren
 
-Lehrmeinung - evidence based medizin - Regelwerk
-Leitlinien
-
-Erfahrungsmedizin
-
-Rauchen
-Bluthochdruck
-Zuckerkrankheit
-Fettstroffwechselstörungen
-
-Ernährung - Fettarm und Vegan
-Bewegung
+- Rauchen
+- Zuckerkrankheit
+- Fettstoffwechselstörungen
+- Veranlagung
 
 ---
 
 ## Ernährung
 
-Proteine
-Kohlenhydraten
-Fetten
+- Proteine
+- Kohlenhydraten
+- Fetten
+
+---
+layout: image-right
+image: /baustoffe.webp
+---
+
+## Proteine
+
+---
+layout: image-right
+image: /papier.avif
+---
+
+## Kohlenhydrate
+
+- schnell verfügbare Energie
+- Speicher:
+  - Leber (kurzfristige Energie ca 60 Min)
+  - als Fett (langfristig)
 
 ---
 
@@ -260,3 +271,20 @@ DGE Omega-6- zu Omega-3-Fettsäureverhältniss 5:1
 Triglyceride - Kohlenhydrate
 HDL-Infusionen
 Y-Tube Weigl: Vegane Ernährung und Sport
+
+---
+
+## Ideen
+
+Lehrmeinung - evidence based medizin - Regelwerk
+Leitlinien
+
+Erfahrungsmedizin
+
+Rauchen
+Bluthochdruck
+Zuckerkrankheit
+Fettstroffwechselstörungen
+
+Ernährung - Fettarm und Vegan
+Bewegung
