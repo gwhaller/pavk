@@ -152,9 +152,17 @@ image: /fusspulse.jpg
 
 ## Untersuchung
 
+<v-clicks>
+
 - Fußpulse
 - ABI-Messung
 - Ultraschalluntersuchung
+- Computertomografie
+- Kernspin-Untersuchung
+
+</v-clicks>
+
+<el-hand-right class="size-10 mt-5 text-yellow-5" v-click/>
 
 ---
 layout: image
