@@ -162,7 +162,13 @@ image: /fusspulse.jpg
 
 </v-clicks>
 
-<el-hand-right class="size-10 mt-5 text-yellow-5" v-click/>
+<div   v-motion
+  :initial="{ x: -50 }"
+  :enter="{ x: 0 }"
+  :click-6="{ x: 20 }"
+  :leave="{ x: 0 }">
+  <el-hand-right class="size-10 mt-5 ml-6 text-yellow-5" v-click/>
+</div>
 
 ---
 layout: image
@@ -174,9 +180,15 @@ title: ABI
 
 ---
 layout: image
-image: /abiergebnis.png
+image: /abi.jpg
 title: ABI-Ausdruck
 ---
+
+<!-- <span v-mark.circle.blue="1">Wunden</span> -->
+
+<span v-mark="{ at: 1, color: 'blue', type: 'circle', strokeWidth: '7' }" class="text-transparent abs-tl mt-108 ml-60">XXXXXXXX</span>
+<span v-mark="{ at: 2, color: 'blue', type: 'circle', strokeWidth: '7' }" class="text-transparent abs-tl mt-22 ml-60">XXXXXXXX</span>
+<span v-mark="{ at: 3, color: 'blue', type: 'circle', strokeWidth: '7' }" class="text-transparent abs-tl mt-66 ml-60">XXXXXXXXXX</span>
 
 ---
 title: Ultraschall
@@ -192,15 +204,12 @@ title: Ultraschall
 layout: two-cols
 ---
 
-## Bildgebende Diagnostik
-
-- Computertomografie
-- Kernspinangiografie
+<img src="/ct.jpg" class="w-70"/>
 
 ::right::
 
 <SlidevVideo autoplay>
-<source src="/3dct.mp4" type="video/mp4" />
+  <source src="/3dct.mp4" type="video/mp4"/>
 </SlidevVideo>
 
 ---
@@ -230,6 +239,7 @@ title: PTA
 ---
 
 <div class="abs-tl ml-20 mt-16 !text-(shadow-lg 6xl)">PTA</div>
+
 <SlidevVideo autoplay>
 <source src="/pta.mp4" type="video/mp4" />
 </SlidevVideo>
@@ -266,6 +276,31 @@ image: /baustoffe.webp
 
 ## Proteine
 
+<div class="space-x-2xl">
+  <twemoji-cut-of-meat class="size-10 mt-5"/>
+  <emojione-v1-fish class="size-10 mt-5"/>
+  <twemoji-cheese-wedge class="size-10 mt-5"/>
+  <twemoji-beans class="size-10 mt-5"/>
+  <emojione-egg class="size-10 mt-5"/>
+  <twemoji-coconut class="size-10 mt-5"/>
+</div>
+
+<br>
+<v-clicks depth="2">
+
+- Bausstoff
+  - Reparatur
+  - Muskeln
+  - Knochen
+  - Haut
+  - Organe
+  - Antikörper
+  - Enzyme
+  - Transport
+- kann nicht gespeichert werden
+
+</v-clicks>
+
 ---
 layout: image-right
 image: /papier.avif
@@ -273,16 +308,49 @@ image: /papier.avif
 
 ## Kohlenhydrate
 
-- schnell verfügbare Energie
+<div class="space-x-2xl">
+  <emojione-bread class="size-10"/>
+  <game-icons-bowl-of-rice class="size-10"/>
+  <emojione-spaghetti class="size-10"/>
+  <streamline-emojis-tropical-drink class="size-10"/>
+  <twemoji-banana class="size-10"/>
+  <streamline-emojis-candy class="size-10"/>
+  <img src="/cola.png" class="size-10"/>
+</div>
+
+<br>
+<v-clicks depth="2">
+
+- Schnell verfügbare Energie
 - Speicher:
   - Leber (kurzfristige Energie ca 60 Min)
   - als Fett (langfristig)
 
+</v-clicks>
+
 ---
 
-## Fettsäuren
+## Fett
 
-länge, gesättigt, ungesättigt, trans
+- gesättigte Fettsäuren
+<div class="space-x-2xl">
+  <twemoji-butter class="size-10"/>
+  <emojione-bacon class="size-10"/>
+</div>
+
+- ungesättigte Fettsäuren
+
+<div class="flex space-x-2xl">
+  <img src="/olive-oil.png" class="size-10"/>
+  <emojione-v1-sunflower class="size-10"/>
+  <twemoji-fish class="size-10"/>
+</div>
+
+- Transfette
+
+<div class="flex space-x-2xl">
+  <img src="/margarine.png" class="size-10"/>
+</div>
 
 ---
 
@@ -307,6 +375,10 @@ John Yudkin - rafinierte Kohlenhydrate - Zucker
 ---
 
 ## Plaque-Entstehung
+
+<Arrow x1="10" y1="20" x2="100" y2="200" />
+
+<AutoFitText :max="200" :min="100" modelValue="Some text"/>
 
 ---
 
