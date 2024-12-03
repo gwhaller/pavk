@@ -33,7 +33,7 @@ src: ./pages/anatomie.md
 title: Arterien
 ---
 
-<div class="absolute left-26 top-20 !text-(shadow-lg 6xl)">
+<div class="abs-tl ml-26 mt-20 !text-(shadow-lg 6xl)">
  <h1>Arterien</h1>
  <ul class="text-xl">
   <li>Sauerstoff</li>
@@ -221,9 +221,9 @@ layout: two-cols
 title: PTA
 ---
 
-<div class="absolute left-26 top-20 !text-(shadow-lg 6xl)">PTA</div>
+<div class="abs-tl ml-20 mt-16 !text-(shadow-lg 6xl)">PTA</div>
 <SlidevVideo autoplay>
-<source src="/pta.mp4" type="video/mp4" class="object-cover w-full" />
+<source src="/pta.mp4" type="video/mp4" />
 </SlidevVideo>
 
 ---

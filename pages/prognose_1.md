@@ -1,6 +1,6 @@
 ## Prognose
 
-<div class="absolute text-center text-sm top-16 left-10">
+<div class="abs-tl mt-16 ml-10 text-center text-sm">
 
   <div class="flex justify-around" v-click="0">
     <div class="ml-24 w-34 border-(white 2) rounded p-1">
@@ -8,53 +8,53 @@
     </div>
   </div>
 
-  <div class="relative flex ml-44 mt-12">
+  <div class="flex ml-44 mt-12">
     <div class="flex space-x-86">
-      <div class="box pt-4 before:(line -skew-y-15 h1 w28 -top-6 left-28)" v-click="5">
-        5-Jares -<br>Gesamtprognose
+      <div class="box before:(line w28 left-30 -rotate-[20deg])" v-click="5">
+        <span>5-Jahres -<br>Gesamtprognose</span>
       </div>
-      <div class="box before:(line skew-y-15 h1 w28 -top-6 left-98)" v-click="1">
-        5-Jahres<br>Prognose<br>für das Bein
+      <div class="box before:(line w28 -left-25 rotate-[20deg])" v-click="1">
+        <span>5-Jahres<br>Prognose<br>für das Bein</span>
       </div>
     </div>
   </div>
 
-  <div class="relative flex mt-12 ml-4">
+  <div class="flex mt-12 ml-4">
     <div class="flex space-x-26">
       <div class="flex space-x-6">
-        <div class="box highlight before:(line -skew-y-15 h1 w22 -top-7 left-22)" v-click="6">
-          35%<br>gefäßbedingte<br>Ereignisse
+        <div class="box before:(line w22 left-22 -rotate-[15deg]) highlight" v-click="6">
+          <span>35%<br>gefäßbedingte<br>Ereignisse</span>
         </div>
-        <div class="box before:(line w-1 h-8 -top-10 left-56)" v-click="9">
-          60%<br>ereignisfreies<br>Überleben
+        <div class="box before:(line w-8 left-13 rotate-[90deg])" v-click="9">
+          <span>60%<br>ereignisfreies<br>Überleben</span>
         </div>
-        <div class="box before:(line skew-y-15 h1 w22 -top-7 left-70)" v-click="10">
-          5%<br>Tod nicht<br>gefäßbedingt
+        <div class="box before:(line w22 -left-10 rotate-[15deg])" v-click="10">
+          <span>5%<br>Tod nicht<br>gefäßbedingt</span>
         </div>
       </div>
       <div class="flex space-x-6">
-        <div class="box pt-4 before:(line -skew-y-30 h1 w12 -top-7 left-156)"  v-click="2">
-          75%<br>Stabilisation
+        <div class="box before:(line w12 left-16 -rotate-[30deg])"  v-click="2">
+          <span>75%<br>Stabilisation</span>
         </div>
-        <div class="box pt-4 before:(line skew-y-30 h1 w12 -top-7 left-185)"  v-click="3">
-          25%<br>Verschlechterung
+        <div class="box before:(line w12 left-6 rotate-[30deg])"  v-click="3">
+          <span>25%<br>Verschlechterung</span>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="relative flex justify-between mt-12 ml-4">
+  <div class="flex justify-between mt-12 ml-4">
     <div class="flex space-x-6">
-      <div class="box highlight before:(line w-1 h-8 -top-10 left-17)" v-click="7">
-        10%<br>nicht tötliches<br>Ereignis
+      <div class="box before:(line w-8 left-13 rotate-[90deg]) highlight" v-click="7">
+        <span>10%<br>nicht tötliches<br>Ereignis</span>
       </div>
-      <div class="box highlight before:(line skew-y-20 h1 w18 -top-6 left-27)" v-click="8">
-        25%<br>gefäßbedingter<br>Tod
+      <div class="box before:(line w-18 -left-12 rotate-[15deg]) highlight" v-click="8">
+        <span>25%<br>gefäßbedingter<br>Tod</span>
       </div>
     </div>
     <div class="flex space-x-6">
-      <div class="box pt-4 highlight before:(line w-1 h-8 -top-10 left-197)" v-click="4">
-        2%<br>Amputation
+      <div class="box before:(line w-8 left-13 rotate-[90deg]) highlight" v-click="4">
+        <span>2%<br>Amputation</span>
       </div>
     </div>
   </div>
