@@ -168,7 +168,7 @@ title: Ultraschall
 ---
 
 <SlidevVideo autoplay class="abs-tl">
-<source src="/us.mp4" type="video/mp4" />
+  <source src="/us.mp4" type="video/mp4" />
 </SlidevVideo>
 
 <div class="abs-bl bottom-10 !text-(shadow-lg 4xl) ">Ultraschall-Untersuchung</div>
@@ -226,10 +226,15 @@ title: PTA
 ## Bypass
 
 ---
+layout: image-right
+image: /avk.webp
+---
 
 ## Risikofaktoren
 
-- Rauchen
-- Zuckerkrankheit
-- Fettstoffwechselstörungen
-- Veranlagung
+<div class="flex flex-col space-y-2">
+  <div><fluent-emoji-cigarette class="mr-4 size-8" />Rauchen</div>
+  <div><noto-candy class="mr-4 size-8" />Zuckerkrankheit</div>
+  <div><fluent-emoji-flat-butter class="mr-4 size-8" />Fettstoffwechselstörungen</div>
+  <div><medical-icon-i-genetics class="mr-4 size-8" />Veranlagung</div>
+</div>

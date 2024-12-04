@@ -1,32 +1,36 @@
 ---
 layout: image-right
-image: /nahrung.jpg
+image: /essen.avif
 ---
 
 ## Ernährung
 
 <br>
 
-### Makronährsteoffe
+<v-clicks>
 
-- Proteine
-- Kohlenhydraten
-- Fetten
+### Makronährstoffe
+
+- Proteine - Eiweiß
+- Kohlenhydrate
+- Fette
 
 <br>
 
 ### Mikronährstoffe
 
 - Vitamine
-- Mineralien <span class="ml-8">-> Kochsalz, Kalium, Calcium, Magnesium</span>
+- Mineralien <span class="ml-6 text-sm">Kochsalz, Kalium, Calcium, Magnesium</span>
 - Spurenelemente
+
+</v-clicks>
 
 ---
 layout: image-right
 image: /baustoffe.webp
 ---
 
-# Proteine = Eiweis
+# Proteine = Eiweiß
 
 <span class="*:size-12 *:mx-2">
   <twemoji-cut-of-meat />
@@ -40,7 +44,7 @@ image: /baustoffe.webp
 <br>
 <br>
 
-### Bausstoff
+### Baustoff
 
 #### kann nicht gespeichert werden
 
@@ -48,7 +52,6 @@ image: /baustoffe.webp
 <v-clicks>
 
 - Reparatur
-- Muskeln
 - Organe, Muskeln, Knochen, Gelenke, Haut
 - Antikörper
 - Enzyme
@@ -179,6 +182,20 @@ image: /transfette.avif
 <!--
 In Dänemark dürfen Lebensmittel bereits seit 15 Jahren nicht mehr als zwei Prozent Transfette enthalten. Seitdem ist die Zahl der Herzerkrankungen laut einer Studie deutlich zurückgegangen, um etwa 700 Todesfälle pro Jahr. In Deutschland gibt es derzeit keine gesetzlichen Regelungen für Transfette in Lebensmitteln.
 -->
+
+---
+
+## Eiweiß - Proteine
+
+- Baumaterial
+- ca 20 % der Körpermasse
+- Grundbausteine sind die 20 Aminosäuren
+- 9 essentiell
+- ca 50.000 verschiede Eiweißstoffe im menschlichen Körper
+- tgl ca 300 g Eiweiß recycled
+- überschüssige Eiweise werden verbrant
+
+<img src="/darm_eiweiss.jpg" class="abs-br w-130 p-4"/>
 
 ---
 
