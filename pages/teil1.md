@@ -181,14 +181,19 @@ layout: two-cols
 </SlidevVideo>
 
 ---
+clicks: 1
+---
 
 # Behandlungsmöglichkeiten
 
 - Gehtraining
 - PTA (Aufdehnen)
 - Operationene
+
   - Ausschäloperation
   - Bypassoperation
+
+    <el-hand-right v-if="$clicks === 1" class="motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-5 ml-6 text-yellow-5" v-click/>
 
 ---
 layout: two-cols
@@ -223,13 +228,21 @@ title: PTA
 ---
 layout: image-right
 image: /avk.webp
+clicks: 2
 ---
 
 ## Risikofaktoren
 
-<div class="flex flex-col space-y-2">
-  <div><fluent-emoji-cigarette class="mr-4 size-8" />Rauchen</div>
-  <div><noto-candy class="mr-4 size-8" />Zuckerkrankheit</div>
+<div class="relative flex flex-col space-y-2">
+  <div class="flex">
+    <fluent-emoji-cigarette class="mr-4 size-8" />
+    <div class="mt-2">Rauchen</div>
+    <div v-if="$clicks >= 1" class="relative">
+      <checkmark class="absolute ml-2" />
+    </div>
+  </div>
+  <div><noto-candy class="mr-4 mt-1 size-8" />Zuckerkrankheit</div>
   <div><fluent-emoji-flat-butter class="mr-4 size-8" />Fettstoffwechselstörungen</div>
   <div><medical-icon-i-genetics class="mr-4 size-8" />Veranlagung</div>
+    <el-hand-right v-if="$clicks === 2" class="absolute top-20 left-70 motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-7 ml-10 text-yellow-5" />
 </div>

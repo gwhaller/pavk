@@ -22,13 +22,15 @@ Eigenverantwortung
 ---
 layout: image-right
 image: /essen.avif
+clicks: 3
 ---
 
 ## Ernährung
 
 <br>
 
-<v-clicks>
+<div v-click=1 class="relative mb-10 makronaehrstoff">
+    <el-hand-right v-if="$clicks === 3" class="absolute top-8 left-60 motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-7 ml-10 text-yellow-5" />
 
 ### Makronährstoffe
 
@@ -36,7 +38,9 @@ image: /essen.avif
 - Kohlenhydrate
 - Fette
 
-<br>
+</div>
+
+<div v-click=2>
 
 ### Mikronährstoffe
 
@@ -44,7 +48,13 @@ image: /essen.avif
 - Mineralien <span class="ml-6 text-sm">Kochsalz, Kalium, Calcium, Magnesium</span>
 - Spurenelemente
 
-</v-clicks>
+</div>
+
+<style>
+.slidev-vclick-prior.makronaehrstoff {
+  opacity: 1.0 !important;
+}
+</style>
 
 ---
 layout: image-right
@@ -136,41 +146,35 @@ image: /papier.avif
 
 </v-click>
 
-<div class="flex justify-between">
+<div class="flex justify-between mb-20">
 
-  <v-after>
-
-  <div class="flex space-x-2xl *:size-12">
+  <div v-click=1 class="flex space-x-2xl *:size-12">
     <img class="size-12" src="/butter2.png"/>
     <noto-v1-bacon/>
     <emojione-avocado/>
     <twemoji-coconut/>
   </div>
-
-  </v-after>
-
-  <div><span v-click=2 class="mr-10">Brennstoff</span><br><span v-click=3 v-mark.underline.red="3">Vitamine</span></div>
+  <div>
+    <span v-click class="mr-10">Brennstoff</span><br>
+    <span v-click v-mark.underline.red="3">Vitamine</span>
+  </div>
 </div>
-<br>
-<br>
-<br>
-<br>
 
-<v-click>
+<v-click at=4>
 
 ### ungesättigte Fettsäuren
 
+</v-click>
+
 <div class="flex justify-between">
-  <div class="flex space-x-2xl *:size-12">
+  <div v-click=4  class="flex space-x-2xl *:size-12">
     <img src="/olive-oil.png"/>
     <openmoji-olive/>
     <emojione-v1-sunflower/>
     <twemoji-fish/>
   </div>
-  <div  v-click=5 class="mr-10 pt-4">Chemikalien</div>
+  <div v-click=5 class="mr-10 pt-4">Chemikalien</div>
 </div>
-
-</v-click>
 
 </div>
 
@@ -209,15 +213,77 @@ In Dänemark dürfen Lebensmittel bereits seit 15 Jahren nicht mehr als zwei Pro
 
 ## Eiweiß - Proteine
 
+<span class="*:size-12 *:mx-2">
+  <twemoji-cut-of-meat />
+  <emojione-v1-fish />
+  <fluent-emoji-flat-glass-of-milk />
+  <twemoji-cheese-wedge />
+  <emojione-egg />
+  <twemoji-beans />
+  <img src="/walnut.png" class="inline-block align-top"/>
+</span>
+
+<v-clicks>
+
 - Baumaterial
 - ca 20 % der Körpermasse
-- Grundbausteine sind die 20 Aminosäuren
-- 9 essentiell
 - ca 50.000 verschiede Eiweißstoffe im menschlichen Körper
+- Grundbausteine sind die 20 Aminosäuren
+- davon 9 Aminosäuren <span v-mark.underline.red="5">unentbehrlich</span> !
+  > Weizen fehlt es an der <span class="text-red-300 font-bold">Lysin</span><br>
+  > Hülsenfrüchten mangelt es an <span class="text-red-300 font-bold">Methionin</span>
+- Aufnahme beindert durch Magenschutztabletten
 - tgl ca 300 g Eiweiß recycled
-- überschüssige Eiweise werden verbrant
+- überschüssige Eiweiße werden verbrannt
+
+</v-clicks>
 
 <img src="/darm_eiweiss.jpg" class="abs-br w-130 p-4"/>
+
+---
+layout: two-cols
+---
+
+## <emojione-baguette-bread mr-4/> Lysin-Mangel
+
+- Wachstumsstörungen bei Kindern
+- Kollagenmangel
+- erhöhte Infektanfälligkeit
+- Übelkeit
+- Müdigkeit und Konzentrationsschwäche
+- rote Augen
+- Haarausfall
+- beeinträchtigte Proteinsynthese
+
+::right::
+
+## <twemoji-beans mr-4/>Methionin-Mangel
+
+- Wassereinlagerungen
+- erhöhte Infektanfälligkeit
+- erhöhtes Arteriosklerose-Risiko
+- Neigung zu Haarausfall
+- Verschlechterung bestehender Allergien
+- eingeschränkte Entgiftungsfunktion
+
+---
+
+## Kohlenhydrate
+
+<div class="*:size-12 *:m-2" >
+  <emojione-baguette-bread />
+  <emojione-croissant />
+  <emojione-pancakes />
+  <noto-cooked-rice />
+  <emojione-spaghetti />
+  <emojione-hamburger />
+  <emojione-pizza />
+  <twemoji-banana />
+  <streamline-emojis-candy />
+  <img src="/ketchup.png" class="inline-block align-top"/>
+  <noto-beverage-box />
+  <img src="/cola.png" class="inline-block align-top"/>
+</div>
 
 ---
 
