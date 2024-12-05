@@ -126,7 +126,7 @@ image: /papier.avif
 <v-clicks depth="2">
 
 - Leber (kurzfristige Energie ca 60 Min)
-- als Fett (langfristig)
+- Fett (langfristig)
 
 </v-clicks>
 
@@ -284,6 +284,143 @@ layout: two-cols
   <noto-beverage-box />
   <img src="/cola.png" class="inline-block align-top"/>
 </div>
+<br><br>
+
+### Natürlich vorkommende Kohlenhydrate
+
+<img src="/gute-kh.webp" class="abs-bl w-110 m-6 ml-10"/>
+<img src="/verdauung_kohlenhydrate.jpg" class="abs-br w-110 m-6 mr-10"/>
+
+---
+
+## Kohlenhydrate
+
+<div class="*:size-12 *:m-2" >
+  <emojione-baguette-bread />
+  <emojione-croissant />
+  <emojione-pancakes />
+  <noto-cooked-rice />
+  <emojione-spaghetti />
+  <emojione-hamburger />
+  <emojione-pizza />
+  <twemoji-banana />
+  <streamline-emojis-candy />
+  <img src="/ketchup.png" class="inline-block align-top"/>
+  <noto-beverage-box />
+  <img src="/cola.png" class="inline-block align-top"/>
+</div>
+<br>
+
+### Raffinierte Kohlenhydrate
+
+#### Zucker === Mehl
+
+<img src="/raffinierte-kh.jpg" class="abs-bl w-93 m-6 ml-10"/>
+<div class="relativ">
+  <img src="/verdauung_zucker.jpg" class="abs-br w-110 m-6 mr-10"/>
+  <!-- <fluent-emoji-cross-mark class="absolute size-10" /> -->
+</div>
+
+---
+
+## Kohlenhydrate
+
+<div class="flex mt-8 mb-4">
+  <div class="text-2xl myt-4 mr-2">
+    Kurze Geschichte des Zuckers
+  </div>
+    <img src="/wuerfelzucker.png" class="inline-block align-top"/>
+</div>
+
+- galt lange Zeit als äußerst rar und kostbar
+- Kolonialzeit: Zuckerrohr aus MIttel- und Südamerika
+- späten 18. Jahrhundert: Rübenzucker
+- zweite Hälfte des letzten Jahrhunderts: industrielle Massenfertigung
+  - gleichzeitig Supermärkte und Fast-Food-Ketten
+  - immer mehr zuckerhaltige Fertigprodukte und Getränke
+- 70er: High Fructose Corn Sirup
+- Zuckerkonsum pro Kopf: 1850 8g Zucker - Heute im Durchschnitt 100g am Tag
+
+  <img src="/zucker.jpg" class="abs-tr w-110 m-6 mr-10"/>
+
+---
+
+<div class="flex">
+  <div class="text-3xl mt-4 mr-2">
+    Kohlenhydrate
+  </div>
+  <div class="*:size-12 *:m-2" ><emojione-baguette-bread />
+    <img src="/wuerfelzucker.png" class="inline-block align-top"/>
+  </div>
+</div>
+
+### <br>Zucker
+
+- bevorzugte Energiequelle
+- kann Gewebestrukturen schädigen<br>
+  -- karamellisieren (HbA1c)
+
+### <br>Insulin
+
+- Masthormon
+- schleust Zucker in die Zelle
+- fördert die Bildung von Fett
+- verhindert den Fettabbau
+
+<img src="/Apfel-Karamell.png" class="abs-tr w-50 m-6 mr-20"/>
+<div class="abs-br">
+  <span class="absolute text-red-500 top-50 left-75 text-sm">Basiswerte</span>
+  <img src="/insulin_kurve.png" class=" w-100 m-6 mr-20" />
+</div>
+
+---
+
+<div class="flex">
+  <div class="text-3xl mt-4 mr-2">
+    Kohlenhydrate
+  </div>
+  <div class="*:size-12 *:m-2" ><emojione-baguette-bread />
+    <img src="/wuerfelzucker.png" class="inline-block align-top"/>
+  </div>
+</div>
+<br>
+
+<v-click>
+
+### Moderater Zucker- und Mehl-Konsum<img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><br>
+
+- im Tagesverlauf: Blutzucker<la-arrow-up class="mt-1"/> => Insulin<la-arrow-up class="align-middle"/><br>
+- Nüchtern Blutzucker und Insulin im Normbereich <oui-dot class="text-green-500" />
+
+</v-click>
+<v-click>
+
+### <br>Erhöhter Konsum<img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/>
+
+- Nüchtern-Insulin steigt (bis 10x) Blutzucker normal <oui-dot class="text-yellow-500" /><br>
+  <span class="ml-4">-> Prä-Diabetes (viele Jahre unentdeckt)</span>
+- Nüchtern-Blutzucker steigt <oui-dot class="text-red-500" /><br>
+  <span class="ml-4">-> Diabetes</span>
+
+</v-click>
+
+<div class="abs-br">
+  <el-arrow-up v-if="$clicks === 2" class="absolute text-blue-500 top-40 left-70 size-12 motion-translate-y-loop-25"/>
+  <img src="/insulin_kurve.png" class=" w-95 mr-20 mb-20" />
+</div>
+
+---
+
+<div class="flex">
+  <div class="text-3xl mt-4 mr-2">
+    Kohlenhydrate
+  </div>
+  <div class="*:size-12 *:m-2" ><emojione-baguette-bread />
+    <img src="/wuerfelzucker.png" class="inline-block align-top"/>
+  </div>
+</div>
+
+### Prä-Diabetes
 
 ---
 
