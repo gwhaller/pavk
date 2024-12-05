@@ -1,4 +1,25 @@
 ---
+layout: image
+image: /evolution.png
+backgroundSize: 80%
+class: bg-white  font-bold text-7xl tracking-tight text-center
+---
+
+<div class="-mt-6 p-2 bg-white text-blue-6">Evolution</div>
+<div class="mt-77 p-2 bg-white text-blue-6">macht uns krank ?</div>
+
+---
+layout: center
+class: text-center text-6xl
+---
+
+Gesundheit
+
+<div class="text-3xl m-8">ist</div>
+
+Eigenverantwortung
+
+---
 layout: image-right
 image: /essen.avif
 ---
@@ -35,10 +56,11 @@ image: /baustoffe.webp
 <span class="*:size-12 *:mx-2">
   <twemoji-cut-of-meat />
   <emojione-v1-fish />
+  <fluent-emoji-flat-glass-of-milk />
   <twemoji-cheese-wedge />
-  <twemoji-beans />
   <emojione-egg />
-  <twemoji-coconut />
+  <twemoji-beans />
+  <img src="/walnut.png" class="inline-block align-top"/>
 </span>
 
 <br>

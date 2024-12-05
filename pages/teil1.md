@@ -93,7 +93,7 @@ title: Bahnhof
 <div class="abs-bl left-10 bottom-10 !text-(shadow-lg 5xl)">arterielle Verschlusskrankheit</div>
 
 ---
-src: ./pages/prognose_1.md
+src: ./prognose_1.md
 ---
 
 ---
@@ -121,6 +121,7 @@ image: /fuesse.avif
 ---
 layout: image-left
 image: /fusspulse.jpg
+clicks: 6
 ---
 
 ## Untersuchung
@@ -135,13 +136,7 @@ image: /fusspulse.jpg
 
 </v-clicks>
 
-<div   v-motion
-  :initial="{ x: -50 }"
-  :enter="{ x: 0 }"
-  :click-6="{ x: 20 }"
-  :leave="{ x: 0 }">
-  <el-hand-right class="size-10 mt-5 ml-6 text-yellow-5" v-click/>
-</div>
+  <el-hand-right v-if="$clicks === 6" class="motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-5 ml-6 text-yellow-5" v-click/>
 
 ---
 layout: image
