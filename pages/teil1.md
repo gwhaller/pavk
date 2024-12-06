@@ -233,7 +233,7 @@ clicks: 2
 
 ## Risikofaktoren
 
-<div class="relative flex flex-col space-y-2">
+<div class="relative flex flex-col space-y-4 mt-12">
   <div class="flex">
     <fluent-emoji-cigarette class="mr-4 size-8" />
     <div class="mt-2">Rauchen</div>
@@ -241,8 +241,9 @@ clicks: 2
       <checkmark class="absolute ml-2" />
     </div>
   </div>
-  <div><noto-candy class="mr-4 mt-1 size-8" />Zuckerkrankheit</div>
+    <div><medical-icon-i-genetics class="mr-4 size-8 text-blue-400" />Veranlagung</div>
+  <div><noto-candy class="mr-4 size-8" />Zuckerkrankheit</div>
   <div><fluent-emoji-flat-butter class="mr-4 size-8" />Fettstoffwechselstörungen</div>
-  <div><medical-icon-i-genetics class="mr-4 size-8" />Veranlagung</div>
+  <div><healthicons-blood-pressure-monitor-outline class="mr-4 size-8 text-red-400" />Bluthochdruck</div>
     <el-hand-right v-if="$clicks === 2" class="absolute top-20 left-70 motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-7 ml-10 text-yellow-5" />
 </div>

@@ -9,17 +9,6 @@ class: bg-white  font-bold text-7xl tracking-tight text-center
 <div class="mt-77 p-2 bg-white text-blue-6">macht uns krank ?</div>
 
 ---
-layout: center
-class: text-center text-6xl
----
-
-Gesundheit
-
-<div class="text-3xl m-8">ist</div>
-
-Eigenverantwortung
-
----
 layout: image-right
 image: /essen.avif
 clicks: 3
@@ -332,6 +321,8 @@ layout: two-cols
     <img src="/wuerfelzucker.png" class="inline-block align-top"/>
 </div>
 
+<v-clicks>
+
 - galt lange Zeit als äußerst rar und kostbar
 - Kolonialzeit: Zuckerrohr aus MIttel- und Südamerika
 - späten 18. Jahrhundert: Rübenzucker
@@ -339,88 +330,164 @@ layout: two-cols
   - gleichzeitig Supermärkte und Fast-Food-Ketten
   - immer mehr zuckerhaltige Fertigprodukte und Getränke
 - 70er: High Fructose Corn Sirup
-- Zuckerkonsum pro Kopf: 1850 8g Zucker - Heute im Durchschnitt 100g am Tag
+- Zuckerkonsum pro Kopf: 1850 <span v-mark.underline.red="7">8g Zucker</span> - Heute im Durchschnitt <span v-mark.underline.red="8">100g am Tag</span>
+
+</v-clicks>
 
   <img src="/zucker.jpg" class="abs-tr w-110 m-6 mr-10"/>
 
 ---
+clicks: 7
+---
 
-<div class="flex">
-  <div class="text-3xl mt-4 mr-2">
-    Kohlenhydrate
-  </div>
-  <div class="*:size-12 *:m-2" ><emojione-baguette-bread />
-    <img src="/wuerfelzucker.png" class="inline-block align-top"/>
-  </div>
-</div>
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/wuerfelzucker.png" class="inline-block align-top size-12"/></span>
 
 ### <br>Zucker
+
+<v-clicks>
 
 - bevorzugte Energiequelle
 - kann Gewebestrukturen schädigen<br>
   -- karamellisieren (HbA1c)
 
+</v-clicks>
+
 ### <br>Insulin
+
+<v-clicks>
 
 - Masthormon
 - schleust Zucker in die Zelle
 - fördert die Bildung von Fett
 - verhindert den Fettabbau
 
-<img src="/Apfel-Karamell.png" class="abs-tr w-50 m-6 mr-20"/>
-<div class="abs-br">
-  <span class="absolute text-red-500 top-50 left-75 text-sm">Basiswerte</span>
-  <img src="/insulin_kurve.png" class=" w-100 m-6 mr-20" />
-</div>
+</v-clicks>
+
+<img v-if="$clicks >= 2" src="/Apfel-Karamell.png" class="abs-tr w-50 mt-14 mr-70"/>
+<img src="/insulinrezeptor.jpg" class=" abs-br w-100 m-6 mr-20" v-if="$clicks === 7" />
 
 ---
 
-<div class="flex">
-  <div class="text-3xl mt-4 mr-2">
-    Kohlenhydrate
-  </div>
-  <div class="*:size-12 *:m-2" ><emojione-baguette-bread />
-    <img src="/wuerfelzucker.png" class="inline-block align-top"/>
-  </div>
-</div>
-<br>
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br><br>
+
+<oui-dot class="text-green-500 absolute text-3xl left-10 top-44" v-click="1" />
+<oui-dot class="text-yellow-500 absolute text-3xl left-10 top-78"  v-click="2"/>
+<oui-dot class="text-red-500 absolute text-3xl left-10 top-94"  v-click="3" />
+
+### moderater Zucker- und Mehl-Konsum<img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><br>
 
 <v-click>
 
-### Moderater Zucker- und Mehl-Konsum<img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><br>
+- Nüchtern Insulin und Blutzucker im Normbereich<br>
+  <span class="ml-4">= gesund</span>
 
-- im Tagesverlauf: Blutzucker<la-arrow-up class="mt-1"/> => Insulin<la-arrow-up class="align-middle"/><br>
-- Nüchtern Blutzucker und Insulin im Normbereich <oui-dot class="text-green-500" />
+</v-click>
+
+### <br>erhöhter Konsum<img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/>
+
+<v-click>
+
+- nüchtern-Insulin<mdi-arrow-up-thin class="text-xl" /> (bis 10x) Blutzucker normal<br>
+  <span class="ml-4">= Prä-Diabetes <span v-mark.underline.red="2">(viele Jahre unentdeckt)</span></span>
 
 </v-click>
 <v-click>
 
-### <br>Erhöhter Konsum<img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/>
-
-- Nüchtern-Insulin steigt (bis 10x) Blutzucker normal <oui-dot class="text-yellow-500" /><br>
-  <span class="ml-4">-> Prä-Diabetes (viele Jahre unentdeckt)</span>
-- Nüchtern-Blutzucker steigt <oui-dot class="text-red-500" /><br>
-  <span class="ml-4">-> Diabetes</span>
+- nüchtern-Insulin<mdi-arrow-up-thin class="text-xl" /> -Blutzucker<mdi-arrow-up-thin class="text-xl" /> <br>
+  <span class="ml-4">= Diabetes</span>
 
 </v-click>
 
 <div class="abs-br">
-  <el-arrow-up v-if="$clicks === 2" class="absolute text-blue-500 top-40 left-70 size-12 motion-translate-y-loop-25"/>
+  <el-arrow-up v-if="$clicks >= 2" class="absolute text-blue-500 top-40 left-70 size-12 motion-translate-y-loop-25"/>
   <img src="/insulin_kurve.png" class=" w-95 mr-20 mb-20" />
 </div>
 
 ---
 
-<div class="flex">
-  <div class="text-3xl mt-4 mr-2">
-    Kohlenhydrate
-  </div>
-  <div class="*:size-12 *:m-2" ><emojione-baguette-bread />
-    <img src="/wuerfelzucker.png" class="inline-block align-top"/>
-  </div>
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/wuerfelzucker.png" class="inline-block align-top size-12"/></span>
+
+## Prä-Diabetes
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+### <span class="text-red-300">Symptome</span>
+
+<v-clicks>
+
+- Gewichtsverlust oder Gewichtsabnahme
+- Heißhunger
+- Schwäche
+- Müdigkeit
+- Erhöhte Neigung zu Infektionen (Haut, Genitale, Harnwege)
+- Verzögerte Wundheilung
+
+</v-clicks>
+
+</div>
+<div>
+
+### <span class="text-red-300">Folgen</span>
+
+<v-clicks>
+
+- Bluthochdruck
+- Fettstoffwechselstörungen
+- Arterienverkalkungen
+- Diabetes
+
+</v-clicks>
+
+</div>
 </div>
 
-### Prä-Diabetes
+---
+layout: image-right
+image: /zuckersucht.avif
+backgroundSize: 120%
+---
+
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br><br>
+
+### Raffinierte Kohlenhydrate<br> führen zur<br><span class="text-red-400">körperlichen und<br>seelischen Abhängigkeit</span><br><br>
+
+<v-clicks>
+
+- ### Dopamin-Ausschüttung
+- ### Insulin<mdi-arrow-up-thin class="text-2xl" /> blockiert Fettabbau<br><span v-mark.underline.red="2">Unterzucker</span>
+
+</v-clicks>
+
+---
+layout: image-right
+image: /intervallfasten.jpg
+backgroundSize: 100%
+---
+
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br>
+
+## Lösung aus der Zuckerfalle?
+
+<v-clicks>
+
+- ### Problem erkennen
+- ### raffinierte Zucker meiden
+- ### keine Angst vor Fetten
+- ### Intervallfasten
+
+</v-clicks>
+
+  <img v-if="$clicks === 4" src="/intervallfasten2.jpg" class="abs-bl w-100 ml-18" />
+
+---
+layout: image
+image: /panik.jpg
+backgroundSize: 150%
+clicks: 1
+---
+
+<div v-if="$clicks === 1" class="abs-br mr-20 mb-16 !text-(shadow-lg 9xl) motion-preset-[pop slide-up focus] motion-delay-100 motion-preset-shake motion-delay-50">Fette</div>
 
 ---
 
@@ -476,3 +543,14 @@ Fettstroffwechselstörungen
 
 Ernährung - Fettarm und Vegan
 Bewegung
+
+---
+layout: center
+class: text-center text-6xl
+---
+
+Gesundheit
+
+<div class="text-3xl m-8">ist</div>
+
+Eigenverantwortung
