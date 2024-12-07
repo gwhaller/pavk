@@ -114,7 +114,7 @@ image: /papier.avif
 
 <v-clicks depth="2">
 
-- Leber (kurzfristige Energie ca 60 Min)
+- Leber (kurzfristige Energie ca 90 Min)
 - Fett (langfristig)
 
 </v-clicks>
@@ -244,6 +244,10 @@ layout: two-cols
 - Haarausfall
 - beeinträchtigte Proteinsynthese
 
+## Essentielle Aminosäuren
+
+Lysin, Methionin, Isoleucin, Leucin, Phenylalanin, Threonin, Typtophan, Valin, Histidin
+
 ::right::
 
 ## <twemoji-beans mr-4/>Methionin-Mangel
@@ -302,7 +306,7 @@ layout: two-cols
 
 ### Raffinierte Kohlenhydrate
 
-#### Zucker === Mehl
+#### Zucker = Mehl
 
 <img src="/raffinierte-kh.jpg" class="abs-bl w-93 m-6 ml-10"/>
 <div class="relativ">
@@ -346,7 +350,7 @@ clicks: 7
 
 <v-clicks>
 
-- bevorzugte Energiequelle
+- bevorzugte Energiequelle <twemoji-thinking-face class="size-8 ml-2" />
 - kann Gewebestrukturen schädigen<br>
   -- karamellisieren (HbA1c)
 
@@ -364,6 +368,7 @@ clicks: 7
 </v-clicks>
 
 <img v-if="$clicks >= 2" src="/Apfel-Karamell.png" class="abs-tr w-50 mt-14 mr-70"/>
+<img v-if="$clicks >= 2" src="/rezeptor.png" class="abs-tr w-45 mt-14 mr-20"/>
 <img src="/insulinrezeptor.jpg" class=" abs-br w-100 m-6 mr-20" v-if="$clicks === 7" />
 
 ---
@@ -491,15 +496,141 @@ clicks: 1
 
 ---
 
+## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
+
+<img src="/butter.jpg" class="abs-tl w-80 mt-30 ml-14" />
+<img src="/Öl.jpg" class="abs-tl w-80 mt-81 ml-14" />
+<img src="/fettsaeure_ges.jpg" class="abs-tr w-120 h-45 mt-30 mr-14" />
+<img src="/infachungesaettigte.jpg" class="abs-tr w-120 h-45 mt-81 mr-14" />
+<span class="abs-tr text-red-500 mr-30 mt-20 text-2xl font-bold">Fettsäuren</span>
+<span class="abs-tr text-red-500 mr-30 mt-30 text-2xl font-bold">gesättigt</span>
+<span class="abs-tr text-red-500 mr-30 mt-81 text-2xl font-bold">ungesättigt</span>
+<span class="abs-tr text-red-500 mr-30 mt-118 text-2xl font-bold">mehrfach ungesättigt</span>
+
+---
+
+## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
+
+<img src="/Übersicht-Fettsäuren.jpg" class="abs-tl w-180 mt-30 ml-14" />
+<span class="abs-tr text-red-500 mr-10 mt-45 text-2xl font-bold">Brennstoff</span>
+<span class="abs-tr text-red-500 mr-12 mt-75 text-2xl font-bold">essentiell</span>
+
+---
+
+## Cholesterin
+
+<img src="/vgl_trigl_chol.jpg" class="abs-tl w-180 mt-30 ml-14" />
+
+---
+layout: image
+image: /1961.jpg
+backgroundSize: 40%
+---
+
+---
+
+## Die Cholesterinhypothese
+
+<v-clicks>
+
+- 1913: Nikolai Anitschkow Kaninchen-Versuch mit tierischer Nahrung
+- 1950er: in den USA sterben bald eine halbe Million Menschen jedes Jahr an einem Herzinfarkt
+- 1955: US-Präsident Dwight D. Eisenhower einen Herzanfall, den er knapp überlebt
+- Ancel Keys (University of Minnesota): Diet-Heart-Hypothesis<br>
+  -> Vergleich vom Fettkonsom in 6-7 Länder in 2 Studien<br>
+- George Mann: Framingham-Heart-Study<br>
+  -> Massai-Krieger (Fleisch, Milch und Rinderblut) trotzdem keine Gefäßerkrankungen
+- 1970er: John Yudkin (University of London)<br>
+  sieht raffinierte Kohlenhydrate, inbesonder Zucker als das Hauptproblem
+- 1980 Dietary Guidelines (allen Menschen wird eine fettarme Ernährung empfohlen)<br>
+  - Margarine statt Butter
+  - Fettarme Milch, Joghurt, Quark und Käse
+  - Seefisch und Nüsse werden zu "Dickmacher"
+  - Vermehrter Einsatz von raffinierten Speiseölen (reich an Omega-6 Fettsäuren) und Zucker
+
+</v-clicks>
+
+---
+layout: image
+image: /Übergewicht-in-den-USA.jpg
+backgroundSize: 70%
+---
+
+## Die Cholesterinhypothese
+
+---
+
+## Lipoproteine
+
+<v-clicks>
+
+<img src="/fett_wasser.jpg" class="abs-tl w-100 mt-20 ml-14" />
+<img src="/Aufbau-Lipo.jpg" class="abs-bl w-100 mb-3 ml-14" />
+<img src="/lipoproteine.webp" class="abs-tr w-110 mt-20 mr-14" />
+
+</v-clicks>
+
+---
+
+## Lipoproteine
+
+<v-clicks>
+
+<img src="/chol1.jpg" class="abs-tl w-105 mt-45 ml-14" />
+<img src="/chol2.jpg" class="abs-tr w-105 mt-20 mr-14" />
+<img src="/chol3.jpg" class="abs-br w-105 mb-20 mr-14" />
+
+</v-clicks>
+
+---
+
+## Lipoproteine
+
+<v-clicks>
+
+<img src="/choldiät1.jpg" class="abs-tl w-105 mt-25 ml-14" />
+<img src="/choldiät2.jpg" class="abs-tr w-105 mt-25 mr-14" />
+<img src="/choldiät3.jpg" class="abs-bl w-105 mb-20 ml-14" />
+<img src="/choldiät4.jpg" class="abs-br w-105 mb-20 mr-14" />
+
+</v-clicks>
+
+---
+
+## Lipoproteine
+
+<v-clicks>
+
+<img src="/ldl_typb.jpg" class="abs-tl w-90 mt-25 ml-14" />
+<img src="/gef_wand_1.jpg" class="abs-tr w-90 mt-25 mr-14" />
+<img src="/oxy_ldl2.jpg" class="abs-bl w-90 h-51 mb-10 ml-14" />
+<img src="/gef_wand_2.jpg" class="abs-br w-90 mb-10 mr-14" />
+
+</v-clicks>
+
+---
+
+## Lipoproteine
+
+<img src="/chol_plaque.jpg" class="abs-tl w220 mt-25 ml-14" />
+
+---
+layout: image
+image: /Omega3.jpg
+backgroundSize: 90%
+---
+
+---
+
 ## Cholesterinhypthese
 
-Nikolai Anitschkow 1913
-Ancel keys 50er - viel gesättigtes Fett === cholesterin steigt
-Studien vergleicht er den Fettkonsum und die Anzahl der Herztode in mehreren Ländern
-In seinen Statistiken kann er eindrucksvoll zeigen: Je mehr Fett und gesättigte Fettsäuren die Menschen essen, desto höher ist auch die Rate an Herzkrankheiten.
-2 Studien 6 und 7 (ohne Deutschland, Frankreich Schweiz) - Käse, Schmalz Wurst und Fleisch
-Diet-Heart-Hypthese
-jeder 2. Herzinfarktpatient völlig normalen Cholesterinspiegel
+- Nikolai Anitschkow 1913
+- Ancel keys 50er - viel gesättigtes Fett = cholesterin steigt
+- Studien vergleicht er den Fettkonsum und die Anzahl der Herztode in mehreren Ländern
+- In seinen Statistiken kann er eindrucksvoll zeigen: Je mehr Fett und gesättigte Fettsäuren die Menschen essen, desto höher ist auch die Rate an Herzkrankheiten.
+- 2 Studien 6 und 7 (ohne Deutschland, Frankreich Schweiz) - Käse, Schmalz Wurst und Fleisch
+- Diet-Heart-Hypthese
+- jeder 2. Herzinfarktpatient völlig normalen Cholesterinspiegel
 
 Georg Mann - Afrika Massai-Krieger - Fleisch, Milch und Rinderblut -extrem Fettreich -schlank kerngesund
 
@@ -508,14 +639,6 @@ John Yudkin - rafinierte Kohlenhydrate - Zucker
 1980 Diatary Guidelines der USA - Fettarme Ernährung (tierisch)
 
 2007 Professor Gardner A to Z Study - Low-Carb-Diät - Cholesterin stieg, Trigyceride halbiert, Gewichtsabnahme, Blutdruckabnahme
-
----
-
-## Plaque-Entstehung
-
-<Arrow x1="10" y1="20" x2="100" y2="200" />
-
-<AutoFitText :max="200" :min="100" modelValue="Some text"/>
 
 ---
 

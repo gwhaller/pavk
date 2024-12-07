@@ -25,10 +25,10 @@
         <div class="box before:(line w22 left-22 -rotate-[15deg]) highlight" v-click="6">
           <span>35%<br>gefäßbedingte<br>Ereignisse</span>
         </div>
-        <div class="box before:(line w-8 left-13 rotate-[90deg])" v-click="9">
+        <div class="box before:(line w-8 left-13 rotate-[90deg])" v-click="11">
           <span>60%<br>ereignisfreies<br>Überleben</span>
         </div>
-        <div class="box before:(line w22 -left-10 rotate-[15deg])" v-click="10">
+        <div class="box before:(line w22 -left-10 rotate-[15deg])" v-click="12">
           <span>5%<br>Tod nicht<br>gefäßbedingt</span>
         </div>
       </div>
@@ -51,6 +51,8 @@
       <div class="box before:(line w-18 -left-12 rotate-[15deg]) highlight" v-click="8">
         <span>25%<br>gefäßbedingter<br>Tod</span>
       </div>
+      <bi-heart-pulse-fill class="text-red-400 size-12 my-auto" v-if="$clicks > 8" />
+      <file-icons-brainfuck class="text-gray-400 size-12 my-auto" v-if="$clicks > 9"/>
     </div>
     <div class="flex space-x-6">
       <div class="box before:(line w-8 left-13 rotate-[90deg]) highlight" v-click="4">

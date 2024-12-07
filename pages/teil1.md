@@ -107,8 +107,8 @@ image: /fuesse.avif
 
 <v-clicks>
 
-- <span v-mark.underline.red="1">Schmerzen</span> beim Gehen
-  - Füße, Wade, Oberschenkel, Gesäß
+- <span v-mark.underline.red="1">Schmerzen</span> beim Gehen<br>
+  Füße, Wade, Oberschenkel, Gesäß, -einseitig
 - kühle, blasse oder marmorierte Haut
 - trockene Haut
 - starke Verhornung
@@ -181,19 +181,24 @@ layout: two-cols
 </SlidevVideo>
 
 ---
-clicks: 1
+layout: image-right
+image: /amputation.gif
+clicks: 4
 ---
 
-# Behandlungsmöglichkeiten
+## Behandlungsmöglichkeiten
+
+<v-clicks>
 
 - Gehtraining
 - PTA (Aufdehnen)
-- Operationene
-
+- Operationen
   - Ausschäloperation
   - Bypassoperation
 
-    <el-hand-right v-if="$clicks === 1" class="motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-5 ml-6 text-yellow-5" v-click/>
+</v-clicks>
+
+<el-hand-right v-if="$clicks === 4" class="motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-5 ml-6 text-yellow-5" v-click/>
 
 ---
 layout: two-cols
@@ -208,7 +213,13 @@ layout: two-cols
 <img src="/kollateralen.jpg" class="h-full"/>
 
 ---
-title: PTA
+layout: image
+image: /pta_illu.jpg
+backgroundSize: 60%
+---
+
+# PTA
+
 ---
 
 <div class="abs-tl ml-20 mt-16 !text-(shadow-lg 6xl)">PTA</div>
@@ -218,32 +229,63 @@ title: PTA
 </SlidevVideo>
 
 ---
+title: Carotis-TEA
+---
+
+<SlidevVideo autoplay class="abs-tl">
+  <source src="/carotis_tea.mp4" type="video/mp4" />
+</SlidevVideo>
+
+<div class="abs-tl ml-40 mt-16 !text-(shadow-lg 6xl)">TEA</div>
 
 ## TEA
 
 ---
+layout: image
+image: /bypass_illu.jpg
+backgroundSize: 50%
+---
 
-## Bypass
+# Bypass
 
 ---
 layout: image-right
 image: /avk.webp
-clicks: 2
+clicks: 6
 ---
+
+<v-clicks depth="2">
+
+## Ursache
+
+<div class="mb-8"><noto-fire class="mr-4 size-8 text-blue-400" />Gefäßentzündung</div>
 
 ## Risikofaktoren
 
-<div class="relative flex flex-col space-y-4 mt-12">
+<div class="relative flex flex-col space-y-4 mt-8">
   <div class="flex">
     <fluent-emoji-cigarette class="mr-4 size-8" />
     <div class="mt-2">Rauchen</div>
-    <div v-if="$clicks >= 1" class="relative">
+    <div v-if="$clicks >= 5" class="relative">
       <checkmark class="absolute ml-2" />
     </div>
   </div>
-    <div><medical-icon-i-genetics class="mr-4 size-8 text-blue-400" />Veranlagung</div>
+  <div><medical-icon-i-genetics class="mr-4 size-8 text-blue-400" />Veranlagung</div>
   <div><noto-candy class="mr-4 size-8" />Zuckerkrankheit</div>
   <div><fluent-emoji-flat-butter class="mr-4 size-8" />Fettstoffwechselstörungen</div>
   <div><healthicons-blood-pressure-monitor-outline class="mr-4 size-8 text-red-400" />Bluthochdruck</div>
-    <el-hand-right v-if="$clicks === 2" class="absolute top-20 left-70 motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-7 ml-10 text-yellow-5" />
 </div>
+
+</v-clicks>
+
+  <div v-if="$clicks === 6" class="">
+    <img src="/klammer.png" class="absolute top-84 left-80 h-35 w-5 inline-block align-topn" />
+    <span class="absolute top-97 left-88 text-2xl !opacity-100">Ernährung</span>
+  </div>
+
+<style>
+img {
+  filter: invert(100%)
+}
+
+</style>
