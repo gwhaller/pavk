@@ -693,17 +693,9 @@ tr:nth-child(n+1):nth-child(-n+6) {color: LightPink}
 </style>
 
 ---
-
-### mehrfach ungesättigte Fettsäuren
-
-#### maritime Öle
-
----
-
 layout: image
 image: /Omega3.jpg
 backgroundSize: 90%
-
 ---
 
 <div class="bg-white abs-tl h-25 w-35 mt-9 ml-100" />
@@ -721,19 +713,20 @@ backgroundSize: 70%
 
 ## Gefäßgesundheit
 
-- Ernährung<br>
-  <gg-arrow-down class="size-6 text-red-400" />raffinierte Kohlenhydrate <span class="ml-4 space-x-2"><emojione-baguette-bread class="size-8"/><img src="/wuerfelzucker.png" class="inline-block align-top size-8"/></span><br>
-  <gg-arrow-down class="size-6  text-red-400" />raffinierte Pflanzenöle<twemoji-sunflower class="ml-4 size-8"/>
+Ernährung
 
----
+<v-clicks>
 
-clean eating
-Lege klärt auf
-DGE Omega-6- zu Omega-3-Fettsäureverhältniss 5:1
-Ölivenöl 126:1
-Triglyceride - Kohlenhydrate
-HDL-Infusionen
-Y-Tube Weigl: Vegane Ernährung und Sport
+- <gg-arrow-down class="size-6 text-red-400" />raffinierte Kohlenhydrate <span class="ml-4 space-x-2"><emojione-baguette-bread class="size-8"/><img src="/wuerfelzucker.png" class="inline-block align-top size-8"/></span><br>
+- <gg-arrow-down class="size-6  text-red-400" />raffinierte Pflanzenöle<twemoji-sunflower class="ml-4 size-8"/>
+
+- Vorsicht mit pflanzlichen Ölen <img src="/olive-oil.png" class="ml-2 mb-1 size-6 inline"/>
+  - Anreicherung im Körper
+  - Oxidation bei Licht und Sauerstoff
+- keine Angst vor gesättigten Fetten <img class="size-8 ml-2 inline" src="/butter2.png"/>
+- Vorsicht bei Fertignahrung <emojione-pizza class="ml-4 size-6" />
+
+</v-clicks>
 
 ---
 layout: center
@@ -745,3 +738,12 @@ Gesundheit
 <div class="text-3xl m-8">ist</div>
 
 Eigenverantwortung
+
+---
+layout: image
+image: /lege.png
+backgroundSize: 70%
+---
+
+---
+

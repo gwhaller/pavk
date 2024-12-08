@@ -36,6 +36,18 @@ title: Erkrankungen
 </v-clicks>
 
 ---
+layout: two-cols
+---
+
+# Arterienverkalkung
+
+<img src="/Arterienwand_normal.png" class="mt-15"/>
+
+::right::
+
+<img src="/Arterienwand_artheriosklerosis2.jpg" class="mt-20" />
+
+---
 layout: image
 image: /plaque.jpg
 title: Plaque
