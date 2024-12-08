@@ -37,9 +37,11 @@ title: Erkrankungen
 
 ---
 layout: image
-image: /nil.jpg
-title: Nil
+image: /plaque.jpg
+title: Plaque
 ---
+
+## <span class="text-black font-bold text-5xl">Arterienverkalkung</span>
 
 ---
 layout: image-left
@@ -193,8 +195,8 @@ clicks: 4
 - Gehtraining
 - PTA (Aufdehnen)
 - Operationen
-  - Ausschäloperation
-  - Bypassoperation
+  - Ausschäl-Operation
+  - Bypass-Operation
 
 </v-clicks>
 

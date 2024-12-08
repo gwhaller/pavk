@@ -328,7 +328,7 @@ Lysin, Methionin, Isoleucin, Leucin, Phenylalanin, Threonin, Typtophan, Valin, H
 <v-clicks>
 
 - galt lange Zeit als äußerst rar und kostbar
-- Kolonialzeit: Zuckerrohr aus MIttel- und Südamerika
+- Kolonialzeit: Zuckerrohr aus Mittel- und Südamerika
 - späten 18. Jahrhundert: Rübenzucker
 - zweite Hälfte des letzten Jahrhunderts: industrielle Massenfertigung
   - gleichzeitig Supermärkte und Fast-Food-Ketten
@@ -522,6 +522,17 @@ clicks: 1
 <img src="/vgl_trigl_chol.jpg" class="abs-tl w-180 mt-30 ml-14" />
 
 ---
+
+## Cholesterin
+
+- wird in der Leber produziert
+- notwendiger Baustein der Zellmembran
+- unverzichtbar bei der Verdauung
+- Grundbaustein bei der Hormonproduktion
+- Bildung von Vitamin-D
+- das Gehirn besteht zu 25% aus Cholesterin
+
+---
 layout: image
 image: /1961.jpg
 backgroundSize: 40%
@@ -529,7 +540,7 @@ backgroundSize: 40%
 
 ---
 
-## Die Cholesterinhypothese
+### Die Cholesterinhypothese
 
 <v-clicks>
 
@@ -543,10 +554,11 @@ backgroundSize: 40%
 - 1970er: John Yudkin (University of London)<br>
   sieht raffinierte Kohlenhydrate, inbesonder Zucker als das Hauptproblem
 - 1980 Dietary Guidelines (allen Menschen wird eine fettarme Ernährung empfohlen)<br>
-  - Margarine statt Butter
-  - Fettarme Milch, Joghurt, Quark und Käse
+  - Margarine statt Butter, Fettarme Milch, Joghurt, Quark und Käse
   - Seefisch und Nüsse werden zu "Dickmacher"
   - Vermehrter Einsatz von raffinierten Speiseölen (reich an Omega-6 Fettsäuren) und Zucker
+- 2007 Professor Gardner A to Z Study - Low-Carb-Diät<br>
+  - Cholesterin stieg, Trigyceride halbiert, Gewichtsabnahme, Blutdruckabnahme
 
 </v-clicks>
 
@@ -574,6 +586,17 @@ backgroundSize: 70%
 
 ## Lipoproteine
 
+### Kreislauf
+
+<img src="/Lipoproteinen.jpg" class="abs-tl w-100 mt-31 ml-14" />
+<img src="/bad_lp.png" class="abs-tr w-117 mt-28 mr-14" />
+
+---
+
+## Lipoproteine
+
+### Labortests
+
 <v-clicks>
 
 <img src="/chol1.jpg" class="abs-tl w-105 mt-45 ml-14" />
@@ -583,13 +606,23 @@ backgroundSize: 70%
 </v-clicks>
 
 ---
+layout: image
+image: /lp_test.png
+backgroundSize: 50%
+---
 
 ## Lipoproteine
 
+---
+
+## Lipoproteine
+
+### Einfluss der Ernährung
+
 <v-clicks>
 
-<img src="/choldiät1.jpg" class="abs-tl w-105 mt-25 ml-14" />
-<img src="/choldiät2.jpg" class="abs-tr w-105 mt-25 mr-14" />
+<img src="/choldiät1.jpg" class="abs-tl w-105 mt-35 ml-14" />
+<img src="/choldiät2.jpg" class="abs-tr w-105 mt-35 mr-14" />
 <img src="/choldiät3.jpg" class="abs-bl w-105 mb-20 ml-14" />
 <img src="/choldiät4.jpg" class="abs-br w-105 mb-20 mr-14" />
 
@@ -599,12 +632,14 @@ backgroundSize: 70%
 
 ## Lipoproteine
 
+<span>Zuckerreiche Ernähung</span>
+
 <v-clicks>
 
-<img src="/ldl_typb.jpg" class="abs-tl w-90 mt-25 ml-14" />
-<img src="/gef_wand_1.jpg" class="abs-tr w-90 mt-25 mr-14" />
-<img src="/oxy_ldl2.jpg" class="abs-bl w-90 h-51 mb-10 ml-14" />
-<img src="/gef_wand_2.jpg" class="abs-br w-90 mb-10 mr-14" />
+<img src="/ldl_typb.jpg" class="abs-tl w-90 mt-30 ml-14" />
+<img src="/gef_wand_1.jpg" class="abs-tr w-90 mt-30 mr-14" />
+<img src="/oxy_ldl2.jpg" class="abs-bl w-90 h-51 mb-5 ml-14" />
+<img src="/gef_wand_2.jpg" class="abs-br w-90 mb-5 mr-14" />
 
 </v-clicks>
 
@@ -615,30 +650,80 @@ backgroundSize: 70%
 <img src="/chol_plaque.jpg" class="abs-tl w220 mt-25 ml-14" />
 
 ---
-layout: image
-image: /Omega3.jpg
+layout: two-cols
+image: /sonnenblumenöl.webp
 backgroundSize: 90%
 ---
 
+### mehrfach ungesättigte Fettsäuren
+
+#### Pflanzenöle
+
+<img src="/sonnenblumenöl.webp" class="abs-bl w-90 mb-5 ml-14" />
+
+::right::
+
+<fluent-color-warning-16 class="text-xl abs-tr mt-42 mr-125" />
+
+| Öl             | Linolsäure | Omega 6/3 |
+| -------------- | ---------- | --------- |
+| Erdnussöl      | 28%        | 182:1     |
+| Distelöl       | 70%        | 160:1     |
+| Traubenkernöl  | 70%        | 135:1     |
+| Sonnenblumenöl | 66%        | 120:1     |
+| Kürbiskernöl   | 50%        | 110:1     |
+| Maiskaimöl     | 60%        | 50:1      |
+| Sesamöl        | 45%        | 22:1      |
+| Olivenöl       | 10%        | 10:1      |
+| Sojaöl         | 55%        | 8:1       |
+| Weizenkeimöl   | 50%        | 7:1       |
+| Walnussöl      | 50%        | 4:1       |
+| Leinenöl       | 50%        | 3:1       |
+| Hanföl         | 50%        | 3:1       |
+| Rapsöl         | 20%        | 3:1       |
+| Reiskleieöl    | 30%        | 1:3       |
+
+<style>
+th, td {
+  font-size: 12px;
+  padding: 6px;
+  text-align: left;
+}
+tr:nth-child(n+1):nth-child(-n+6) {color: LightPink}
+</style>
+
 ---
 
-## Cholesterinhypthese
+### mehrfach ungesättigte Fettsäuren
 
-- Nikolai Anitschkow 1913
-- Ancel keys 50er - viel gesättigtes Fett = cholesterin steigt
-- Studien vergleicht er den Fettkonsum und die Anzahl der Herztode in mehreren Ländern
-- In seinen Statistiken kann er eindrucksvoll zeigen: Je mehr Fett und gesättigte Fettsäuren die Menschen essen, desto höher ist auch die Rate an Herzkrankheiten.
-- 2 Studien 6 und 7 (ohne Deutschland, Frankreich Schweiz) - Käse, Schmalz Wurst und Fleisch
-- Diet-Heart-Hypthese
-- jeder 2. Herzinfarktpatient völlig normalen Cholesterinspiegel
+#### maritime Öle
 
-Georg Mann - Afrika Massai-Krieger - Fleisch, Milch und Rinderblut -extrem Fettreich -schlank kerngesund
+---
 
-John Yudkin - rafinierte Kohlenhydrate - Zucker
+layout: image
+image: /Omega3.jpg
+backgroundSize: 90%
 
-1980 Diatary Guidelines der USA - Fettarme Ernährung (tierisch)
+---
 
-2007 Professor Gardner A to Z Study - Low-Carb-Diät - Cholesterin stieg, Trigyceride halbiert, Gewichtsabnahme, Blutdruckabnahme
+<div class="bg-white abs-tl h-25 w-35 mt-9 ml-100" />
+<div class="text-black abs-tl mt-9 mx-60 px-2 text-3xl bg-yellow-200 text-bold">mehrfach ungesättigte Fettsäuren</div>
+
+---
+layout: image
+image: /ox-LDL.jpg
+backgroundSize: 70%
+---
+
+---
+
+# Zusammenfassung
+
+## Gefäßgesundheit
+
+- Ernährung<br>
+  <gg-arrow-down class="size-6 text-red-400" />raffinierte Kohlenhydrate <span class="ml-4 space-x-2"><emojione-baguette-bread class="size-8"/><img src="/wuerfelzucker.png" class="inline-block align-top size-8"/></span><br>
+  <gg-arrow-down class="size-6  text-red-400" />raffinierte Pflanzenöle<twemoji-sunflower class="ml-4 size-8"/>
 
 ---
 
@@ -649,23 +734,6 @@ DGE Omega-6- zu Omega-3-Fettsäureverhältniss 5:1
 Triglyceride - Kohlenhydrate
 HDL-Infusionen
 Y-Tube Weigl: Vegane Ernährung und Sport
-
----
-
-## Ideen
-
-Lehrmeinung - evidence based medizin - Regelwerk
-Leitlinien
-
-Erfahrungsmedizin
-
-Rauchen
-Bluthochdruck
-Zuckerkrankheit
-Fettstroffwechselstörungen
-
-Ernährung - Fettarm und Vegan
-Bewegung
 
 ---
 layout: center
