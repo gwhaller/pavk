@@ -714,6 +714,8 @@ title: ox-LDL
 ---
 
 ---
+layout: two-cols
+---
 
 # Zusammenfassung
 
@@ -733,6 +735,11 @@ Ernährung
 - Vorsicht bei Fertignahrung <emojione-pizza class="ml-4 size-6" />
 
 </v-clicks>
+
+::right::
+
+<img src="/suppe1.jpg" class="abs-tr w-60 mt-20 mr-80" />
+<img src="/suppe2.jpg" class="abs-tr w-60 mt-20 mr-14" />
 
 ---
 layout: center
