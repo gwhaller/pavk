@@ -117,7 +117,7 @@ image: /fuesse.avif
 
 # arterielle Verschlusskrankheit
 
-<h2 class="text-red">Durchblutungstörungen</h2>
+<h2 class="text-red">Durchblutungsstörungen</h2>
 
 <v-clicks>
 
@@ -297,7 +297,7 @@ clicks: 6
 </v-clicks>
 
   <div v-if="$clicks === 6" class="">
-    <img src="/klammer.png" class="absolute top-84 left-80 h-35 w-5 inline-block align-topn" />
+    <img src="/klammer.png" class="absolute top-84 left-80 h-35 w-5 inline-block align-top" />
     <span class="absolute top-97 left-88 text-2xl !opacity-100">Ernährung</span>
   </div>
 

@@ -190,7 +190,7 @@ image: /transfette.avif
 - Wurst
 - Fertigsuppen
 - Müsliriegel
-- Cappucino-Pulver
+- Cappuccino-Pulver
 - <span v-mark.underline.red="8">Fertiggerichte</span>
 
 </v-clicks>
@@ -217,12 +217,12 @@ In Dänemark dürfen Lebensmittel bereits seit 15 Jahren nicht mehr als zwei Pro
 
 - Baumaterial
 - ca 20 % der Körpermasse
-- ca 50.000 verschiede Eiweißstoffe im menschlichen Körper
+- ca 50.000 verschiedene Eiweißstoffe im menschlichen Körper
 - Grundbausteine sind die 20 Aminosäuren
 - davon 9 Aminosäuren <span v-mark.underline.red="5">unentbehrlich</span> !
   > Weizen fehlt es an der <span class="text-red-300 font-bold">Lysin</span><br>
   > Hülsenfrüchten mangelt es an <span class="text-red-300 font-bold">Methionin</span>
-- Aufnahme beindert durch Magenschutztabletten
+- Aufnahme behindert durch Magenschutztabletten
 - tgl ca 300 g Eiweiß recycled
 - überschüssige Eiweiße werden verbrannt
 
@@ -556,7 +556,7 @@ title: Keys
 - George Mann: Framingham-Heart-Study<br>
   -> Massai-Krieger (Fleisch, Milch und Rinderblut) trotzdem keine Gefäßerkrankungen
 - 1970er: John Yudkin (University of London)<br>
-  sieht raffinierte Kohlenhydrate, inbesonder Zucker als das Hauptproblem
+  sieht raffinierte Kohlenhydrate, insbesondere Zucker als das Hauptproblem
 - 1980 Dietary Guidelines (allen Menschen wird eine fettarme Ernährung empfohlen)<br>
   - Margarine statt Butter, Fettarme Milch, Joghurt, Quark und Käse
   - Seefisch und Nüsse werden zu "Dickmacher"
