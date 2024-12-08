@@ -3,6 +3,7 @@ layout: image
 image: /evolution.png
 backgroundSize: 80%
 class: bg-white  font-bold text-7xl tracking-tight text-center
+title: evolution
 ---
 
 <div class="-mt-6 p-2 bg-white text-blue-6">Evolution</div>
@@ -231,6 +232,7 @@ In Dänemark dürfen Lebensmittel bereits seit 15 Jahren nicht mehr als zwei Pro
 
 ---
 layout: two-cols
+title: AS Mangel
 ---
 
 ## <emojione-baguette-bread mr-4/> Lysin-Mangel
@@ -490,6 +492,7 @@ layout: image
 image: /panik.jpg
 backgroundSize: 150%
 clicks: 1
+title: Fette
 ---
 
 <div v-if="$clicks === 1" class="abs-br mr-20 mb-16 !text-(shadow-lg 9xl) motion-preset-[pop slide-up focus] motion-delay-100 motion-preset-shake motion-delay-50">Fette</div>
@@ -536,6 +539,7 @@ clicks: 1
 layout: image
 image: /1961.jpg
 backgroundSize: 40%
+title: Keys
 ---
 
 ---
@@ -696,6 +700,7 @@ tr:nth-child(n+1):nth-child(-n+6) {color: LightPink}
 layout: image
 image: /Omega3.jpg
 backgroundSize: 90%
+title: mehrfach us FS
 ---
 
 <div class="bg-white abs-tl h-25 w-35 mt-9 ml-100" />
@@ -705,6 +710,7 @@ backgroundSize: 90%
 layout: image
 image: /ox-LDL.jpg
 backgroundSize: 70%
+title: ox-LDL
 ---
 
 ---
@@ -733,17 +739,22 @@ layout: center
 class: text-center text-6xl
 ---
 
-Gesundheit
+# <span class="text-6xl">Gesundheit</span>
 
 <div class="text-3xl m-8">ist</div>
 
-Eigenverantwortung
+# <span class="text-6xl">Eigenverantwortung</span>
 
 ---
 layout: image
 image: /lege.png
 backgroundSize: 70%
+title: Lege klärt auf
 ---
 
 ---
-
+layout: image
+image: /ernährungsdocs.png
+backgroundSize: 70%
+title: Ernährungsdocs
+---

@@ -184,6 +184,7 @@ title: Ultraschall
 
 ---
 layout: two-cols
+title: ct
 ---
 
 <img src="/ct.jpg" class="w-70"/>
@@ -216,6 +217,7 @@ clicks: 4
 
 ---
 layout: two-cols
+title: gehtraining
 ---
 
 <div class="abs-tl ml-20 mt-16 !text-(shadow-lg 5xl)">Gehtraining</div>
@@ -235,11 +237,13 @@ backgroundSize: 60%
 # PTA
 
 ---
+title: pta
+---
 
 <div class="abs-tl ml-20 mt-16 !text-(shadow-lg 6xl)">PTA</div>
 
-<SlidevVideo autoplay>
-<source src="/pta.mp4" type="video/mp4" />
+<SlidevVideo autoplay controls>
+  <source src="/pta.mp4" type="video/mp4" />
 </SlidevVideo>
 
 ---
