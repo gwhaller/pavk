@@ -765,3 +765,10 @@ image: /ernährungsdocs.png
 backgroundSize: 70%
 title: Ernährungsdocs
 ---
+
+---
+layout: image
+image: /Kochen-mit-Familie.jpg
+backgroundSize: 70%
+title: Kochen mit Familie
+---
