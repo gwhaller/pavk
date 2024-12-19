@@ -2,7 +2,6 @@
 layout: image-right
 image: /anatomie.avif
 title: Anatomie
-# clicks: 4
 ---
 
 ## Aufbau der Durchblutung
@@ -25,5 +24,4 @@ title: Anatomie
   <span v-click="4">Arterien</span>
   <span v-click="5"><span class="text-white"> = </span>Schlagadern</span>
   <span v-click="6"><span class="text-white"> = </span>Pulsadern</span>
-
 </div>

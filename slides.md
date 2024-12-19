@@ -1,8 +1,6 @@
 ---
 title: pAVK
 theme: default
-# theme: seriph
-# theme: academic
 layout: cover
 wakelock: true
 background: /wanderer.jpg
@@ -14,7 +12,6 @@ drawings:
 transition: slide-left
 mdc: true
 favicon: /favicon.ico
-# overviewSnapshots: true
 ---
 
 # Arterienverkalkungen und arterielle Verschlusskrankheit
