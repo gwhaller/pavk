@@ -311,7 +311,7 @@ clicks: 6
       <checkmark class="absolute ml-2" />
     </div>
   </div>
-  <div><medical-icon-i-genetics class="mr-4 size-8 text-blue-400" />Veranlagung</div>
+  <medical-icon-i-genetics class="mr-4 size-8 text-blue-400" />Veranlagung
   <div><noto-candy class="mr-4 size-8" />Zuckerkrankheit</div>
   <div><fluent-emoji-flat-butter class="mr-4 size-8" />Fettstoffwechselstörungen</div>
   <div><healthicons-blood-pressure-monitor-outline class="mr-4 size-8 text-red-400" />Bluthochdruck</div>
