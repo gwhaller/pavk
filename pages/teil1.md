@@ -15,7 +15,7 @@ title: Arterien
  </ul>
 </div>
 <SlidevVideo autoplay>
-<source src="/vid_arterien.mp4" type="video/mp4" />
+<source src="../assets/vid_arterien.mp4" type="video/mp4" />
 </SlidevVideo>
 
 ---
@@ -41,11 +41,11 @@ layout: two-cols
 
 # Arterienverkalkung
 
-<img src="/Arterienwand_normal.png" class="mt-15"/>
+<img src="../assets/Arterienwand_normal.png" class="mt-15"/>
 
 ::right::
 
-<img src="/Arterienwand_artheriosklerosis2.jpg" class="mt-20" />
+<img src="../assets/Arterienwand_artheriosklerosis2.jpg" class="mt-20" />
 
 ---
 layout: image
@@ -196,8 +196,31 @@ title: ct
 </SlidevVideo>
 
 ---
+layout: two-cols
+clicks: 4
+---
+
+## Behandlungsmöglichkeiten
+
+<v-clicks>
+
+- Gehtraining
+- PTA (Aufdehnen)
+- Operationen
+  - Ausschäl-Operation
+  - Bypass-Operation
+
+</v-clicks>
+
+<el-hand-right v-if="$clicks === 4" class="motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-5 ml-6 text-yellow-5" v-click/>
+
+:: right::
+
+<img src="/amputation.gif" class="abs-tr h-full"/>
+
+---
 layout: image-right
-image: /amputation.gif
+image: ./amputation.gif
 clicks: 4
 ---
 

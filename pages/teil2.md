@@ -20,7 +20,7 @@ clicks: 3
 <br>
 
 <div v-click=1 class="relative mb-10 makronaehrstoff">
-    <el-hand-right v-if="$clicks === 3" class="absolute top-8 left-60 motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-7 ml-10 text-yellow-5" />
+  <el-hand-right v-if="$clicks === 3" class="absolute top-8 left-60 motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-7 ml-10 text-yellow-5" />
 
 ### Makronährstoffe
 
@@ -137,7 +137,6 @@ image: /papier.avif
 </v-click>
 
 <div class="flex justify-between mb-20">
-
   <div v-click=1 class="flex space-x-2xl *:size-12">
     <img class="size-12" src="/butter2.png"/>
     <noto-v1-bacon/>
